@@ -1,3 +1,4 @@
+import Router from "./shared/Router";
 import "./App.css";
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      <p className="bg-gray-200">아아아아</p>
+      <Router />
     </>
   );
 }
