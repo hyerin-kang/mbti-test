@@ -1,4 +1,6 @@
 import axios from "axios";
+import { useContext } from "react";
+import { AuthContext } from "../contexts/AuthContext";
 
 const API_URL = "https://www.nbcamp-react-auth.link";
 
@@ -24,6 +26,20 @@ export const apiLogin = async (userData) => {
   }
 };
 
-export const getUserProfile = async (token) => {};
+export const getUserProfile = async (token) => {
+  //세션스토리지에이있는거 가져오고
+
+  try {
+    const response = await axios.get(`${API_URL}/user`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    console.log("token : ", response.data);
+    return response.data;
+  } catch (error) {
+    alert(error.response.data.message);
+  }
+};
 
 export const updateProfile = async (formData) => {};

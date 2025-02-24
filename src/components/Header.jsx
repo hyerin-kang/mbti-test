@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const { isAuthenticated, logout } = useContext(AuthContext);
-  console.log("헤더에서 확인", isAuthenticated);
+  // console.log("헤더에서 확인", isAuthenticated);
   //isAuthenticated true : 로그아웃
   //false : 로그인
   return (

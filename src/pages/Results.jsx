@@ -1,5 +1,11 @@
-const Results = () => {
-  return <div>Results</div>;
+import TestResultList from "../components/TestResultList";
+
+const TestResult = () => {
+  return (
+    <div>
+      <TestResultList />
+    </div>
+  );
 };
 
-export default Results;
+export default TestResult;
