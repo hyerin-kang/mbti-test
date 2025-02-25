@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getTestResults } from "../data/testResults";
+import { mbtiDescriptions } from "../utils/mbtiCalculator";
 
 const TestResultList = () => {
   const [results, setResults] = useState([]); // 상태값
@@ -18,14 +19,19 @@ const TestResultList = () => {
   return (
     <div>
       {results.map(function (result) {
+        const resultMBTI = result.result;
+        const resultMBTIInfo = mbtiDescriptions[resultMBTI];
         return (
-          <div key={result.id}>
-            <div>
-              <p>{result.nickname}</p>
+          <div key={result.id} className="p-4 bg-white mb-8 rounded-md">
+            <div className="flex justify-between border-b-2 pb-2 mb-2 items-center text-gray-700">
+              <p className="text-xl">{result.nickname}</p>
               <p>{result.date}</p>
             </div>
             <div>
-              <h2>{result.result}</h2>
+              <h2 className="font-semibold text-xl text-primary mb-2">
+                {result.result}
+              </h2>
+              <p className="text-gray-500">{resultMBTIInfo}</p>
             </div>
           </div>
         );

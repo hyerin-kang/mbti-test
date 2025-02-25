@@ -1,11 +1,7 @@
 import TestResultList from "../components/TestResultList";
 
 const TestResult = () => {
-  return (
-    <div>
-      <TestResultList />
-    </div>
-  );
+  return <TestResultList />;
 };
 
 export default TestResult;

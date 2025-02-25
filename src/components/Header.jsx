@@ -15,6 +15,7 @@ const Header = () => {
           <>
             <Link to={"/profile"}>PROFILE</Link>
             <Link to={"/testpage"}>TEST</Link>
+            <Link to={"/results"}>RESULTS</Link>
             <button onClick={logout}>LOGOUT</button>
           </>
         ) : (

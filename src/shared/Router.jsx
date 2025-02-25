@@ -6,21 +6,24 @@ import Results from "../pages/Results";
 import Signup from "../pages/Signup";
 import Layout from "../layout/Layout";
 import TestPage from "../pages/TestPage";
+import { AuthProvider } from "../contexts/AuthContext";
 
 const Router = () => {
   return (
     <div>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/testpage" element={<TestPage />} />
-            <Route path="/results" element={<Results />} />
-          </Route>
-        </Routes>
+        <AuthProvider>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/testpage" element={<TestPage />} />
+              <Route path="/results" element={<Results />} />
+            </Route>
+          </Routes>
+        </AuthProvider>
       </BrowserRouter>
     </div>
   );

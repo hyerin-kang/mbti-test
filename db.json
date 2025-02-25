@@ -1,86 +1,42 @@
 {
   "testResults": [
     {
-      "id": "756354b1-c95a-4adc-ac15-e67f1cb4573e",
-      "result": "INFP",
-      "visibility": true,
-      "date": "2025-02-24T06:18:29.659Z"
-    },
-    {
-      "id": "11309131-3aa6-420d-8e9b-1899552f8573",
-      "result": "ESFP",
-      "visibility": true,
-      "date": "2025-02-24T06:23:00.289Z"
-    },
-    {
-      "id": "525d7436-00c4-4e3e-ab6c-3e8b25ed9869",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:24:46.995Z"
-    },
-    {
-      "id": "53a53208-a618-45d7-a7b2-75602c1e01e7",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:24:56.112Z"
-    },
-    {
-      "id": "e2c14cfc-7732-4e12-9432-a45cc0214cee",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:26:19.802Z"
-    },
-    {
-      "id": "99316918-b1c7-44b4-9fcf-e774ee03fa6f",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:26:59.358Z"
-    },
-    {
-      "id": "e6e1a98d-5943-4f71-ad47-f568b52e7295",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:27:05.398Z"
-    },
-    {
-      "id": "fd66b958-83cc-4e17-8597-0072d8721bd9",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:27:38.633Z"
-    },
-    {
-      "id": "8dd45d7c-51a1-4c7e-a1c7-467c36e19b28",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:28:16.956Z"
-    },
-    {
-      "id": "a550f40b-091a-444c-b40f-07e754bf4a75",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:32:46.447Z"
-    },
-    {
-      "id": "8ffa67d2-94df-47ca-88ba-2f451eba6740",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:34:04.067Z"
-    },
-    {
-      "id": "54967e9f-1a54-4215-a57e-70bfaa802350",
-      "nickname": "user_nickname",
-      "result": "ESTJ",
-      "visibility": true,
-      "date": "2025-02-24T06:57:20.587Z",
-      "userId": "user_id"
-    },
-    {
       "id": "06a26905-d9a7-4ff2-a900-e90dca06b3b7",
       "nickname": "강혜린",
       "result": "INFJ",
       "visibility": true,
       "date": "2025-02-24T07:26:05.792Z",
       "userId": "kkkk1234"
+    },
+    {
+      "id": "17f04548-3182-46ba-baf6-8f35e7bd9416",
+      "nickname": "강혜린",
+      "result": "ISTJ",
+      "visibility": true,
+      "date": "2025-02-24T10:16:32.163Z",
+      "userId": "kkkk1234"
+    },
+    {
+      "id": "a6c43a0c-9136-45f8-baac-128856ec35a4",
+      "nickname": "ddd",
+      "result": "ESTJ",
+      "visibility": true,
+      "date": "2025-02-25T05:04:49.154Z",
+      "userId": "kkkk1234"
+    },
+    {
+      "id": "66b06a8c-c863-4f5f-98f7-316a734e6c43",
+      "nickname": "리니",
+      "result": "INFP",
+      "visibility": true,
+      "date": "2025-02-25T06:23:13.394Z"
+    },
+    {
+      "id": "755cf1a8-4400-449b-b66b-5198e708f726",
+      "nickname": "ㅇㅇㅇ",
+      "result": "INFP",
+      "visibility": true,
+      "date": "2025-02-25T06:49:44.855Z"
     }
   ]
 }
