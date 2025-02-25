@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://www.nbcamp-react-auth.link";
+const API_URL = import.meta.env.VITE_AUTH_SERVER_URL;
 
 export const register = async (userData) => {
   try {
